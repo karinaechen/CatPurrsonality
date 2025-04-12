@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CatPersona</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="landing-page" id="start-page">
+        <h1>Cat Persona</h1>
+        <img src="" alt="">
+        <button id="start-quiz-button" class="start-button">Start</button>
+        <button class="start-button" onclick="window.open('about.html', '_blank');">Cats</button>
+        <footer>by <a id="footer" href="https://karinaechen.github.io/" target="_blank" rel="noopener">Karina Chen</a><br></br>inspired by MBTI and persona quizzes by <a id="footer" href="https://iseej.github.io/Card/" target="_blank" rel="noopener">iseej</a>!</footer>
+    </div>
+    <script src="script.js"></script>
+
+    <div class="quiz-page" id="quiz-page">
+        <div id="quiz"></div>
+    </div>
+
+    <div class="result-page" id="result">
+        <div id="result-text"></div>
+        <img id="result-image" src="" alt="">
+        <button id="restart-quiz-button" class="start-button" onclick="restartQuiz()">Restart</button>
+        <!-- <div id="mbti-confirmation">
+            <p>What is your actual MBIT?</p>
+            <select id="input-mbti">
+              <option value="">-- Select Your MBTI Type --</option>
+              <option value="INTJ">INTJ</option>
+              <option value="INTP">INTP</option>
+              <option value="ENTJ">ENTJ</option>
+              <option value="ENTP">ENTP</option>
+              <option value="INFJ">INFJ</option>
+              <option value="INFP">INFP</option>
+              <option value="ENFJ">ENFJ</option>
+              <option value="ENFP">ENFP</option>
+              <option value="ISTJ">ISTJ</option>
+              <option value="ISFJ">ISFJ</option>
+              <option value="ESTJ">ESTJ</option>
+              <option value="ESFJ">ESFJ</option>
+              <option value="ISTP">ISTP</option>
+              <option value="ISFP">ISFP</option>
+              <option value="ESTP">ESTP</option>
+              <option value="ESFP">ESFP</option>
+            </select>
+            <button onclick="submitUserMBTI()">Submit</button>
+          </div> -->
+    </div>
+</body>
+</html>
